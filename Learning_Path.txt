@@ -1,0 +1,70 @@
+The first line of your script should begin with a shebang (#!)
+
+How to run a shell script file >> you need to make the script file executable, use the "chmod" 
+Run the script >> ./script name 
+Open the shell configuration file >> ~/.profile ... through it the access to run from anywhere in the system. 
+File is <  /etc/shells > ........ through it all shell on vm 
+-------------------------------------------------------------------------------------------------------------------------
+
+
+1.local variables 
+2.Global variables 
+  
+ variables can be viewed using the env or printenv command 
+
+3.quotes 
+
+4.Exit status is represent by a numerical value between (0-255)  using the command < echo $? >  
+
+5.Predefined variables 
+
+6.Arithmetic operations using the command < $((...)) & let > 
+
+7.Command substitution using the command < $() & backticks ` ` > 
+
+8.Brace Expansion using the syntax <  {start..end} >
+
+9.read user Input :  using the read command and many options 
+
+10.conditional operators for numerical values & string values & logical operators & file operators 
+
+11.understanding IF statement 
+ 
+ the basic syntax of the if statement is shown 
+               
+                    #!/bin/bash
+                       
+                    if [ condition ] 
+                    then 
+                        
+                         # code to execute 
+                    fi
+12.regular Expressions 
+
+    if [[ $variable =~ regular_expression ]] 
+    then 
+         #code to execute  
+    else 
+         #code to execute
+    fi 
+
+13. understanding case statements 
+
+   case $variable in
+        
+        pattern 1)
+          #code to execute 
+          ;;
+ 
+        pattern 2) 
+         #code to execute 
+         ;; 
+        *) 
+           #code to execute
+           ;;
+    esac
+
+
+
+
+
