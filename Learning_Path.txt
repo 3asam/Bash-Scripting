@@ -64,6 +64,34 @@ File is <  /etc/shells > ........ through it all shell on vm
            ;;
     esac
 
+14.what is an array ? array allow you to store and manipulate a collection of elements, such as numbers, strings, or max of different data types. 
+the syntax :: array_name = (element1 element2 .... elementN)
+
+15.for loop : is a control structure that allows you to iterate over a list of items and execute a block of code for each item the list. 
+
+for variable in item1 item2 item3..... 
+do
+   #code to be execute for each item
+done 
+
+16.continue and break statements 
+
+for variable in items 
+do 
+   if [condtions] 
+   then
+   continue or break 
+   fi
+done 
+
+
+17.select command is interactive shell scripts with menus.
+
+select variable name in [list] 
+do 
+   [commands] 
+done
+
 
 
 
