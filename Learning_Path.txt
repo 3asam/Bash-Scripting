@@ -93,6 +93,34 @@ do
 done
 
 
+18.while loop is if conditions true, the loop continue executing, if the conditons becomes false,the loop will terminate. 
+
+syntax 
+        while [ conditons ]
+        do 
+             #code to be executed
+        done
+
+
+19.shift command is using to shift the positional parameters (arguments) passed to a script or functions
+
+syntax : shift n 
+
+
+20.Reading files line by line >> Best practice : IFS and -r 
+you will often see this syntax inprofessional Bash Scripting
+
+syntax 
+        
+           while IFS=  read -r line 
+           do 
+                   #code to be executed 
+           done < file.txt or anayware file 
+
+
+21.until loop is used to repeatedly execute a black of code as long as a certain condition remains false.
+
+syntax the same while loop 
 
 
 

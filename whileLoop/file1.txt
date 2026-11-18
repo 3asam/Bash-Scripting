@@ -1,0 +1,10 @@
+Iam Essam Mohamed,from Mansoura,
+
+                  and graduted from cs,
+
+and focus to leaning courses traning 
+
+/docker
+/k8s 
+/terraform 
+/bash scripting 
