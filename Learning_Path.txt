@@ -123,4 +123,56 @@ syntax
 syntax the same while loop 
 
 
+22.functions is syntax 
+
+function_name () 
+{
+      #code to be executed 
+
+}
+
+function_name
+
+
+
+23.source command is using the source (or.) command inside a script allows you to include the content of another script within the current script.
+
+in order to call the function another script used to command subestitutions >> $() and backticks `` 
+
+syntax 
+
+
+source <./file script name >
+function name 
+
+
+
+24.Explaning SED is short for "stream editor", acts as a text editor with no interactive interface 
+using addressing and regular expression 
+using operators 
+
+syntax 
+
+sed options 's/commands/' input file
+
+
+25.Explaning AWK is you can text processing 
+
+
+it can be used to perform tasks such as pattern matching, filtering, and manipulating data.
+using regular expressions in the pattern to perform more complex, matching tasks. 
+
+syntax 
+
+awk 'BEGIN { COMMANDS } {COMMANDS } END { COMMANDS } ' INPUT FILE 
+
+---------------------------------------------------------------------------------------------------
+
+BEGIN AND END COMMANDS IS OPTIONS, you can write or not 
+
+---------------------------------------------------------------------------------------------------
+
+if you want to include multiple pattern and actions, you can separate them using semicolons ; 
+
+
 
