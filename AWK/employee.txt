@@ -1,0 +1,12 @@
+Name  department   salary
+Essam  IT          15000
+Ahmed  HR          12000
+Mohamed  DevOps    22000
+Ali Finance        18000
+Omar Network       16000
+Mostafa Security   20000
+Khaled IT          14000
+Youssef DevOps     25000
+Mahmoud HR         13000
+Amr Network        17000
+
