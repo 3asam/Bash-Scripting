@@ -177,3 +177,25 @@ if you want to include multiple pattern and actions, you can separate them using
 awk Variables : 1. NR << current record of the number 2. NF << number of fields 3. $0 << Represent the whole line 
 4. $1,$2 << Represent the postions in a line 5. FS << field separator 6. OFS << output field separator 7. RS << record separator 8. ORS << output record separator  
 
+
+if statement in awk : you can use the if statement to check a condition and the action inside the if block will be executedonly when the condition is true. 
+
+syntax 
+
+awk ' {
+  if ( condition ) {
+      #action to be executed 
+}
+   else {
+    #action to be executed 
+
+
+} 
+
+}' input_file 
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+ 
