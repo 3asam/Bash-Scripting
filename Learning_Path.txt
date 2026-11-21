@@ -198,4 +198,35 @@ awk ' {
 
 
 
- 
+for Loop in awk : 
+
+syntax << 
+
+awk ' {
+  for ( variable in collections  ) {
+      #action to be performed for each element in the collection
+}
+   
+
+}' input_file
+
+
+Notes: collection it can be an array, a list of fields in the current record.
+
+------------------------------------------------------------------------------------------------------------------
+
+26.'at' command : is used to schedule one-time tasks or script executions to occur at a specific time in the future
+
+
+- at time -f < scriptName > 
+
+
+27. " crontab " command : is a powerful time-based job scheduler in unix-like operating systems, including linux and macOs 
+
+- run the command " crontab -e "
+- in the crontab file, each line represents a scheduled task. 
+- the format of a cron entry is as follows. 
+
+       " * * * * * " command to be executed. >> format (*) calculate scheduler : https://crontab.guru/#*_*_*_*_*
+
+

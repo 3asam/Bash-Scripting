@@ -1,4 +1,3 @@
-Name  department   salary
 Essam  IT          15000
 Ahmed  HR          12000
 Mohamed  DevOps    22000
