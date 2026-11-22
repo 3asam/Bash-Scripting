@@ -61,3 +61,61 @@ Learned the five-field cron expression format for time-based execution.
 Configured scripts to run automatically at scheduled intervals.
 Explored Cron service status, execution logs, and output redirection.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Automated VM Backup & AWS S3 Replication
+
+## Project Overview
+
+A Bash-based automation project designed to back up important data from a Linux Virtual Machine.
+
+The script compresses source directories, stores timestamped backup archives locally, logs backup operations, and uploads the archives to an Amazon S3 bucket using AWS CLI.
+
+Cron is used to automate backup execution at scheduled intervals.
+
+## Architecture
+
+```mermaid
+flowchart TD
+    A["Cron Scheduler"] --> B["Bash Backup Script"]
+    B --> C["Check AWS CLI"]
+    C --> D["Source Directory"]
+    D --> E["Compress using tar + gzip"]
+    E --> F["Local Backup Directory"]
+    F --> G["Log File"]
+    F --> H["AWS CLI Upload"]
+    H --> I["Amazon S3 Bucket"]
+```
+
+## Key Features
+
+- **Backup Scheduling:** Automated execution using Cron.
+- **Backup Compression:** Compress files using `tar` and `gzip`.
+- **Logging:** Record backup operation messages in a log file.
+- **AWS Integration:** Upload backup archives to Amazon S3 using AWS CLI.
+
+## Technologies Used
+
+- Linux & Bash Scripting
+- Cron
+- tar & gzip
+- AWS CLI
+- Amazon S3
+
+## Usage
+
+```bash
+chmod +x backup-script.sh
+./backup-script.sh
+```
+
+Configure AWS CLI before running:
+
+```bash
+aws configure
+```
+
+## Project Status
+
+Core functionality implemented and tested, including scheduled execution, local backup creation, compression, logging, and S3 upload.
+
+
