@@ -229,4 +229,9 @@ Notes: collection it can be an array, a list of fields in the current record.
 
        " * * * * * " command to be executed. >> format (*) calculate scheduler : https://crontab.guru/#*_*_*_*_*
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+project:  using a bash script and scheduling to automate vm data backup/replication to an amazon s3 bucket
+
+
 
